@@ -1,0 +1,54 @@
+TODO
+----------
+* Prepend rm_ to each external routermanager function?
+* Areacodes plugin for every country (global list available as csv)
+  (90% done, add special handling for countrys not starting with 0 indicator,
+  e.g. Russian Federation)
+* Addressbook selection in preferences
+* Export contacts to router
+* FRITZ!Box: Read upnp xml to retrieve control url instead of hardcoding the value
+* Fix possible race condition between telnet and CAPI plugin
+
+* FRITZ!Fon: label field
+
+* GNetworkMonitor currently only works on Linux! Add implementation for:
+    - Windows (patch added: https://bugzilla.gnome.org/show_bug.cgi?id=685442)
+    - OS X
+
+* G_OS_LINUX??
+
+**** WIN32 ****
+* Application icon in different sizes
+
+**** OSX ****
+* Add G_OS_OSX in glib
+* Add consistent directory handling in glib
+
+** Contacts **
+- Outlook
+
+** Reverse lookup **
+- Germany: dasörtliche, dastelefonbuch, klicktel, goyellow, gelbeseiten
+- France: 11880.fr
+- Swiss: tel.search.ch, tel.local.ch
+- Austria: telefonabc.at
+
+** Journal **
+- MySQL
+- Text
+
+** Misc **
+- tellows
+- notes
+
+************** UNDECIDED **************
+* Different sound output for notifications
+* Import for JFritz
+* DSL/Connection information
+
+* Distribution schema: Add default actions
+
+* wincred faults with empty password?
+
+
+* VCard crashes on file changes

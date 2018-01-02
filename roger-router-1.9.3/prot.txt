@@ -1,0 +1,731 @@
+
+** (roger_cli:12773): WARNING **: Failed to start device monitor!
+Hier roger_cli 4
+Hier roger_cli 5
+routermanager_init 1
+routermanager_init 2
+routermanager_init 3
+routermanager_init 4
+routermanager_init 5
+1 Plugin, data: /usr/lib64/routermanager/
+2 Plugin, data:  1  builtin
+
+2 Plugin, data:  1  builtin
+
+2 Plugin, data:  1 
+2 Plugin, data:  1 
+2 Plugin, data:  1  builtin
+
+2 Plugin, data:  1  builtin
+
+2 Plugin, data:  1  builtin
+
+routermanager_init 6
+routermanager_init 7
+routermanager_init 8
+routermanager_init 9
+net_monitor_init 1
+net_monitor_init 2
+net_monitor_init 3
+net_monitor_init 5
+profile_detect_active 2 3810D5861938
+fritzbox_present 1
+fritzbox_present 2
+1 fritzbox_present 192.168.178.1
+Nr 2 fritzbox_present, url: 'http://192.168.178.1/jason_boxinfo.xml'
+> GET /jason_boxinfo.xml HTTP/1.1
+> Soup-Debug-Timestamp: 1513424994
+> Soup-Debug: SoupSession 1 (0x24fc340), SoupMessage 1 (0x268a1d0), SoupSocket 1 (0x26566d0)
+> Host: 192.168.178.1
+> Accept-Encoding: gzip, deflate
+> Connection: Keep-Alive
+  
+< HTTP/1.1 200 OK
+< Soup-Debug-Timestamp: 1513424994
+< Soup-Debug: SoupMessage 1 (0x268a1d0)
+< Cache-Control: max-age=120
+< Connection: Keep-Alive
+< Transfer-Encoding: chunked
+< Content-Type: text/xml;charset=utf-8
+< Date: Sat, 16 Dec 2017 11:49:54 GMT
+< ETag: "B446B137574781AAD"
+< Expires: Sat, 16 Dec 2017 11:51:54 GMT
+< Last-Modified: Thu, 01 Jan 1970 00:00:51 GMT
+< Mime-Version: 1.0
+< Keep-Alive: timeout=60, max=300
+< 
+< 
+< <j:BoxInfo xmlns:j="http://jason.avm.de/updatecheck/">
+< <j:Name>FRITZ!Box 7490</j:Name>
+< <j:HW>185</j:HW>
+< <j:Version>113.06.90</j:Version>
+< <j:Revision>46982</j:Revision>
+< <j:Serial>3810D5861938</j:Serial>
+< <j:OEM>avm</j:OEM>
+< <j:Lang>de</j:Lang>
+< <j:Annex>B</j:Annex>
+< <j:Lab></j:Lab>
+< <j:Country>049</j:Country>
+< <j:Flag>crashreport</j:Flag>
+< <j:UpdateConfig>1</j:UpdateConfig></j:BoxInfo>
+  
+Nr 4 fritzbox_present
+Nr 5 fritzbox_present
+Nr 6 fritzbox_present
+Nr 7 fritzbox_present
+Nr 8 fritzbox_present
+Nr 9 fritzbox_present
+Nr 10 fritzbox_present
+Nr 11 fritzbox_present
+Nr 12 fritzbox_present
+profile_detect_active 3
+fritzbox_present 1
+fritzbox_present 2
+1 fritzbox_present 192.168.178.1
+Nr 2 fritzbox_present, url: 'http://192.168.178.1/jason_boxinfo.xml'
+> GET /jason_boxinfo.xml HTTP/1.1
+> Soup-Debug-Timestamp: 1513424994
+> Soup-Debug: SoupSession 1 (0x24fc580), SoupMessage 1 (0x268a4a0), SoupSocket 1 (0x267ec40)
+> Host: 192.168.178.1
+> Accept-Encoding: gzip, deflate
+> Connection: Keep-Alive
+  
+< HTTP/1.1 200 OK
+< Soup-Debug-Timestamp: 1513424994
+< Soup-Debug: SoupMessage 1 (0x268a4a0)
+< Cache-Control: max-age=120
+< Connection: Keep-Alive
+< Transfer-Encoding: chunked
+< Content-Type: text/xml;charset=utf-8
+< Date: Sat, 16 Dec 2017 11:49:54 GMT
+< ETag: "B446B137574781AAD"
+< Expires: Sat, 16 Dec 2017 11:51:54 GMT
+< Last-Modified: Thu, 01 Jan 1970 00:00:51 GMT
+< Mime-Version: 1.0
+< Keep-Alive: timeout=60, max=300
+< 
+< 
+< <j:BoxInfo xmlns:j="http://jason.avm.de/updatecheck/">
+< <j:Name>FRITZ!Box 7490</j:Name>
+< <j:HW>185</j:HW>
+< <j:Version>113.06.90</j:Version>
+< <j:Revision>46982</j:Revision>
+< <j:Serial>3810D5861938</j:Serial>
+< <j:OEM>avm</j:OEM>
+< <j:Lang>de</j:Lang>
+< <j:Annex>B</j:Annex>
+< <j:Lab></j:Lab>
+< <j:Country>049</j:Country>
+< <j:Flag>crashreport</j:Flag>
+< <j:UpdateConfig>1</j:UpdateConfig></j:BoxInfo>
+  
+Nr 4 fritzbox_present
+Nr 5 fritzbox_present
+Nr 6 fritzbox_present
+Nr 7 fritzbox_present
+Nr 8 fritzbox_present
+Nr 9 fritzbox_present
+Nr 10 fritzbox_present
+Nr 11 fritzbox_present
+Nr 12 fritzbox_present
+profile_set_active 2
+fritzbox_load_journal
+fritzbox_login
+fritzbox_login_05_50
+1 fritzbox_login_05_50
+3 fritzbox_login_05_50
+4 fritzbox_login_05_50
+5 fritzbox_login_05_50
+6 fritzbox_login_05_50
+8 fritzbox_login_05_50
+9 fritzbox_login_05_50
+10 fritzbox_login_05_50
+11 fritzbox_login_05_50
+12 fritzbox_login_05_50
+> GET /login_sid.lua HTTP/1.1
+> Soup-Debug-Timestamp: 1513424994
+> Soup-Debug: SoupSession 1 (0x24fc580), SoupMessage 2 (0x268a4a0), SoupSocket 1 (0x267ec40)
+> Host: 192.168.178.1
+> Accept-Encoding: gzip, deflate
+> Connection: Keep-Alive
+  
+< HTTP/1.1 200 OK
+< Soup-Debug-Timestamp: 1513424994
+< Soup-Debug: SoupMessage 2 (0x268a4a0)
+< Connection: Keep-Alive
+< Transfer-Encoding: chunked
+< Content-Type: text/xml
+< Keep-Alive: timeout=60, max=300
+< 
+< <?xml version="1.0" encoding="utf-8"?><SessionInfo><SID>0000000000000000</SID><Challenge>b83fd416</Challenge><BlockTime>0</BlockTime><Rights></Rights></SessionInfo>
+  
+13 fritzbox_login_05_50
+19 fritzbox_login_05_50
+20 fritzbox_login_05_50
+21 fritzbox_login_05_50
+22 fritzbox_login_05_50
+23 fritzbox_login_05_50
+24 fritzbox_login_05_50
+1 fritzbox_check_login_blocked
+2 fritzbox_check_login_blocked
+3 fritzbox_check_login_blocked
+4 fritzbox_check_login_blocked
+5 fritzbox_check_login_blocked
+6 fritzbox_check_login_blocked
+8 fritzbox_check_login_blocked
+10 fritzbox_check_login_blocked
+11 fritzbox_check_login_blocked
+25 fritzbox_login_05_50
+26 fritzbox_login_05_50
+27 fritzbox_login_05_50, user: 
+password: bach17raga 10
+28 fritzbox_login_05_50, password: bach17raga
+29 fritzbox_login_05_50
+30 fritzbox_login_05_50
+31 fritzbox_login_05_50
+32 fritzbox_login_05_50
+33 fritzbox_login_05_50
+34 fritzbox_login_05_50
+35 fritzbox_login_05_50
+36 fritzbox_login_05_50
+37 fritzbox_login_05_50
+38 fritzbox_login_05_50
+> POST /login_sid.lua HTTP/1.1
+> Soup-Debug-Timestamp: 1513424994
+> Soup-Debug: SoupSession 1 (0x24fc580), SoupMessage 3 (0x268a3b0), SoupSocket 2 (0x2656600)
+> Host: 192.168.178.1
+> Content-Type: application/x-www-form-urlencoded
+> Accept-Encoding: gzip, deflate
+> Connection: Keep-Alive
+> 
+> username=&response=b83fd416-872c5ea8700dadebbf062e596cffdbad
+  
+< HTTP/1.1 200 OK
+< Soup-Debug-Timestamp: 1513424994
+< Soup-Debug: SoupMessage 3 (0x268a3b0)
+< Connection: Keep-Alive
+< Transfer-Encoding: chunked
+< Content-Type: text/xml
+< Keep-Alive: timeout=60, max=300
+< 
+< <?xml version="1.0" encoding="utf-8"?><SessionInfo><SID>2b555028b0e81c77</SID><Challenge>ebf18519</Challenge><BlockTime>0</BlockTime><Rights><Name>Dial</Name><Access>2</Access><Name>App</Name><Access>2</Access><Name>HomeAuto</Name><Access>2</Access><Name>BoxAdmin</Name><Access>2</Access><Name>Phone</Name><Access>2</Access><Name>NAS</Name><Access>2</Access></Rights></SessionInfo>
+  
+39 fritzbox_login_05_50
+40 fritzbox_login_05_50
+48 fritzbox_login_05_50
+49 fritzbox_login_05_50
+50 fritzbox_login_05_50
+51 fritzbox_login_05_50
+52 fritzbox_login_05_50
+53 fritzbox_login_05_50
+1 fritzbox_check_login_blocked
+2 fritzbox_check_login_blocked
+3 fritzbox_check_login_blocked
+11 fritzbox_check_login_blocked
+54 fritzbox_login_05_50
+Ende fritzbox_login_05_50
+routermanager_init 10
+Hier roger_cli 6
+Hier roger_cli 7
+Hier roger_cli 8
+Hier roger_cli 9
+tiff: /DATA/Patientendokumente/hallo.pdf.tif, number: 6150166
+Hier roger_cli 10
+Hier roger_cli 11
+Hier roger_cli 12
+Achtung: 2 1 5 0 616381 DiabDachau +49 1503937192
+Achtung: 5 616379
+> GET /fon_num/foncalls_list.lua?sid=2b555028b0e81c77&csv= HTTP/1.1
+> Soup-Debug-Timestamp: 1513424995
+> Soup-Debug: SoupSession 1 (0x24fc580), SoupMessage 4 (0x268a2c0), SoupSocket 2 (0x2656600)
+> Host: 192.168.178.1
+> Accept-Encoding: gzip, deflate
+> Connection: Keep-Alive
+  
+fritzbox_present 1
+fritzbox_present 2
+1 fritzbox_present 192.168.178.1
+Nr 2 fritzbox_present, url: 'http://192.168.178.1/jason_boxinfo.xml'
+> GET /jason_boxinfo.xml HTTP/1.1
+> Soup-Debug-Timestamp: 1513424995
+> Soup-Debug: SoupSession 1 (0x24fc100), SoupMessage 1 (0x268a590), SoupSocket 1 (0x7f54780130d0)
+> Host: 192.168.178.1
+> Accept-Encoding: gzip, deflate
+> Connection: Keep-Alive
+  
+< HTTP/1.1 200 OK
+< Soup-Debug-Timestamp: 1513424995
+< Soup-Debug: SoupMessage 1 (0x268a590)
+< Cache-Control: max-age=120
+< Connection: Keep-Alive
+< Transfer-Encoding: chunked
+< Content-Type: text/xml;charset=utf-8
+< Date: Sat, 16 Dec 2017 11:49:55 GMT
+< ETag: "B446B137574781AAD"
+< Expires: Sat, 16 Dec 2017 11:51:55 GMT
+< Last-Modified: Thu, 01 Jan 1970 00:00:51 GMT
+< Mime-Version: 1.0
+< Keep-Alive: timeout=60, max=300
+< 
+< 
+< <j:BoxInfo xmlns:j="http://jason.avm.de/updatecheck/">
+< <j:Name>FRITZ!Box 7490</j:Name>
+< <j:HW>185</j:HW>
+< <j:Version>113.06.90</j:Version>
+< <j:Revision>46982</j:Revision>
+< <j:Serial>3810D5861938</j:Serial>
+< <j:OEM>avm</j:OEM>
+< <j:Lang>de</j:Lang>
+< <j:Annex>B</j:Annex>
+< <j:Lab></j:Lab>
+< <j:Country>049</j:Country>
+< <j:Flag>crashreport</j:Flag>
+< <j:UpdateConfig>1</j:UpdateConfig></j:BoxInfo>
+  
+Nr 4 fritzbox_present
+Nr 5 fritzbox_present
+Nr 6 fritzbox_present
+Nr 7 fritzbox_present
+Nr 8 fritzbox_present
+Nr 9 fritzbox_present
+Nr 10 fritzbox_present
+Nr 11 fritzbox_present
+Nr 12 fritzbox_present
+device_proxy_available_cb 2
+< HTTP/1.1 200 OK
+< Soup-Debug-Timestamp: 1513424995
+< Soup-Debug: SoupMessage 4 (0x268a2c0)
+< Connection: Keep-Alive
+< Transfer-Encoding: chunked
+< Content-Type: text/csv; charset=utf-8
+< Keep-Alive: timeout=60, max=300
+< Content-Disposition: attachment; filename=FRITZ!Box_Anrufliste.csv
+< 
+< sep=;
+< Typ;Datum;Name;Rufnummer;Nebenstelle;Eigene Rufnummer;Dauer
+< 1;15.12.17 19:41;Anneliese Schade;089467637;ISDN Gerät;Internet: 616380;0:01
+< 1;15.12.17 17:53;;089630238299;ISDN Gerät;Internet: 616381;0:05
+< 1;15.12.17 17:18;;089630238296;ISDN Gerät;Internet: 616381;0:02
+< 1;15.12.17 16:53;;0813133834296;ISDN Gerät;Internet: 616380;0:01
+< 1;15.12.17 16:06;Unbekannt;;ISDN Gerät;Internet: 616381;0:01
+< 1;15.12.17 15:23;;081422841414;ISDN Gerät;Internet: 616380;0:01
+< 1;15.12.17 15:19;;089630238297;ISDN Gerät;Internet: 616381;0:01
+< 1;15.12.17 14:14;;089630238298;ISDN Gerät;Internet: 616381;0:01
+< 4;15.12.17 13:53;;081376599209;ISDN Gerät;Internet: 616380;0:11
+< 4;15.12.17 13:48;;3791269;ISDN Gerät;Internet: 616380;0:02
+< 4;15.12.17 13:34;;08966079933;ISDN Gerät;Internet: 616381;0:02
+< 4;15.12.17 13:32;;0893153398;ISDN Gerät;Internet: 616380;0:04
+< 4;15.12.17 13:30;;081376599209;ISDN Gerät;Internet: 616380;0:04
+< 4;15.12.17 13:22;;089242912110;USR-1;Internet: 616381;0:02
+< 1;15.12.17 13:21;;08131338350;ISDN Gerät;Internet: 616381;0:01
+< 4;15.12.17 13:19;;089242912110;ISDN Gerät;Internet: 616381;0:01
+< 4;15.12.17 13:18;;089242912110;ISDN Gerät;Internet: 616381;0:01
+< 4;15.12.17 13:17;;089242912110;ISDN Gerät;Internet: 616381;0:01
+< 4;15.12.17 13:16;;089242912110;ISDN Gerät;Internet: 616381;0:01
+< 4;15.12.17 13:13;;081332345;ISDN Gerät;Internet: 616380;0:09
+< 1;15.12.17 13:06;;089630238299;ISDN Gerät;Internet: 616381;0:02
+< 1;15.12.17 13:02;;08988949827713;ISDN Gerät;Internet: 616381;0:01
+< 4;15.12.17 13:02;;081332345;ISDN Gerät;Internet: 616380;0:09
+< 4;15.12.17 12:55;;96088;ISDN Gerät;Internet: 616380;0:01
+< 1;15.12.17 12:52;;081332222;ISDN Gerät;Internet: 616380;0:01
+< 1;15.12.17 12:50;;0892429120;ISDN Gerät;Internet: 616380;0:02
+< 4;15.12.17 12:42;Ralf Steinert;72510;ISDN Gerät;Internet: 616380;0:01
+< 1;15.12.17 12:37;;089630238297;ISDN Gerät;Internet: 616381;0:01
+< 4;15.12.17 12:24;;0896302380;ISDN Gerät;Internet: 616380;0:01
+< 4;15.12.17 12:22;;081427281;ISDN Gerät;Internet: 616380;0:01
+< 1;15.12.17 12:13;;015255941942;ISDN Gerät;Internet: 616380;0:02
+< 1;15.12.17 12:12;;01632880906;ISDN Gerät;Internet: 616380;0:02
+< 1;15.12.17 12:09;;015732506350;ISDN Gerät;Internet: 616380;0:02
+< 1;15.12.17 12:01;Unbekannt;;ISDN Gerät;Internet: 616381;0:01
+< 1;15.12.17 11:56;;081311882470;ISDN Gerät;Internet: 616380;0:04
+< 4;15.12.17 11:43;;0813157151;ISDN Gerät;Internet: 616381;0:02
+< 4;15.12.17 11:42;;0813992132;ISDN Gerät;Internet: 616381;0:02
+< 1;15.12.17 11:40;;01723675427;ISDN Gerät;Internet: 616380;0:02
+< 4;15.12.17 11:36;;08258561;ISDN Gerät;Internet: 616380;0:02
+< 4;15.12.17 11:35;;0813992169;ISDN Gerät;Internet: 616380;0:04
+< 4;15.12.17 11:28;;85028;ISDN Gerät;Internet: 616380;0:03
+< 1;15.12.17 11:26;Unbekannt;;ISDN Gerät;Internet: 616380;0:03
+< 1;15.12.17 11:24;;081363578950;ISDN Gerät;Internet: 616380;0:01
+< 2;15.12.17 11:24;Unbekannt;;;Internet: 616380;0:00
+< 1;15.12.17 11:21;;08138422;ISDN Gerät;Internet: 616381;0:01
+< 1;15.12.17 11:20;;081363578950;ISDN Gerät;Internet: 616380;0:02
+< 1;15.12.17 11:10;;08258561;ISDN Gerät;Internet: 616380;0:02
+< 1;15.12.17 11:04;;015168948802;ISDN Gerät;Internet: 616380;0:01
+< 1;15.12.17 10:59;;081376599209;ISDN Gerät;Internet: 616380;0:02
+< 4;15.12.17 10:56;;0893211100;ISDN Gerät;Internet: 616381;0:02
+< 1;15.12.17 10:55;;081376103784;ISDN Gerät;Internet: 616380;0:04
+< 4;15.12.17 10:52;;0893211100;USR-1;Internet: 616381;0:01
+< 4;15.12.17 10:49;;0893211100;ISDN Gerät;Internet: 616381;0:01
+< 4;15.12.17 10:44;;0893211100;ISDN Gerät;Internet: 616381;0:01
+< 1;15.12.17 10:42;;08138992640;ISDN Gerät;Internet: 616380;0:01
+< 1;15.12.17 10:37;;01733618238;ISDN Gerät;Internet: 616380;0:01
+< 1;15.12.17 10:36;;089630238297;ISDN Gerät;Internet: 616381;0:01
+< 1;15.12.17 10:35;Unbekannt;;ISDN Gerät;Internet: 616380;0:05
+< 1;15.12.17 10:31;Unbekannt;;ISDN Gerät;Internet: 616380;0:05
+< 1;15.12.17 10:28;;08139935219;ISDN Gerät;Internet: 616380;0:03
+< 4;15.12.17 10:26;;081389583;ISDN Gerät;Internet: 616380;0:04
+< 1;15.12.17 10:21;;0893101112;ISDN Gerät;Internet: 616380;0:06
+< 1;15.12.17 10:10;;0898125506;ISDN Gerät;Internet: 616380;0:01
+< 1;15.12.17 10:10;;015732506350;ISDN Gerät;Internet: 616380;0:02
+< 2;15.12.17 10:09;;0898125506;;Internet: 616380;0:00
+< 1;15.12.17 10:08;;08137539729;ISDN Gerät;Internet: 616380;0:02
+< 1;15.12.17 10:00;;08131326528;ISDN Gerät;Internet: 616380;0:03
+< 4;15.12.17 09:59;;0893104674;ISDN Gerät;Internet: 616380;0:04
+< 1;15.12.17 09:57;;081391436;ISDN Gerät;Internet: 616380;0:04
+< 1;15.12.17 09:55;;081427281;ISDN Gerät;Internet: 616380;0:01
+< 1;15.12.17 09:53;;01786712145;ISDN Gerät;Internet: 616380;0:06
+< 1;15.12.17 09:50;;08131297239;ISDN Gerät;Internet: 616380;0:01
+< 1;15.12.17 09:49;;015732604133;ISDN Gerät;Internet: 616380;0:01
+< 1;15.12.17 09:42;;081313189131;ISDN Gerät;Internet: 616380;0:02
+< 2;15.12.17 09:39;;081313189131;;Internet: 616380;0:00
+< 1;15.12.17 09:36;;016090335523;ISDN Gerät;Internet: 616380;0:02
+< 1;15.12.17 09:28;;08139204304;ISDN Gerät;Internet: 616380;0:02
+< 1;15.12.17 09:25;;0893104674;ISDN Gerät;Internet: 616380;0:04
+< 1;15.12.17 09:24;;017676308130;ISDN Gerät;Internet: 616380;0:03
+< 1;15.12.17 09:23;;0893151739;ISDN Gerät;Internet: 616380;0:02
+< 1;15.12.17 09:20;;081314309738;ISDN Gerät;Internet: 616380;0:03
+< 1;15.12.17 09:19;;08139204304;ISDN Gerät;Internet: 616380;0:01
+< 1;15.12.17 09:17;;015164025849;ISDN Gerät;Internet: 616380;0:07
+< 1;15.12.17 09:13;;081316119200;ISDN Gerät;Internet: 616380;0:02
+< 1;15.12.17 09:08;;0814190877;ISDN Gerät;Internet: 616380;0:01
+< 1;15.12.17 09:07;;09216053083;ISDN Gerät;Internet: 616381;0:01
+< 1;15.12.17 08:45;;017624353779;ISDN Gerät;Internet: 616380;0:03
+< 1;15.12.17 08:43;;0813112010;ISDN Gerät;Internet: 616380;0:02
+< 1;15.12.17 08:42;;08258561;ISDN Gerät;Internet: 616380;0:04
+< 4;15.12.17 08:40;;08136998380;ISDN Gerät;Internet: 616380;0:03
+< 1;15.12.17 08:31;;08921372374;ISDN Gerät;Internet: 616380;0:06
+< 1;15.12.17 08:21;;081413151781;ISDN Gerät;Internet: 616380;0:03
+< 1;15.12.17 08:19;;089630238299;ISDN Gerät;Internet: 616381;0:01
+< 1;15.12.17 08:19;;08134553521;ISDN Gerät;Internet: 616380;0:02
+< 1;15.12.17 08:11;;0813125408;ISDN Gerät;Internet: 616380;0:01
+< 1;15.12.17 08:08;;081426528144;ISDN Gerät;Internet: 616380;0:04
+< 1;15.12.17 08:01;;0813191378;ISDN Gerät;Internet: 616380;0:01
+< 1;15.12.17 08:01;;081368064946;ISDN Gerät;Internet: 616380;0:04
+< 4;15.12.17 07:45;ventengo;004981313569949;ISDN Gerät;Internet: 616380;0:03
+< 1;15.12.17 07:45;;0813186934;ISDN Gerät;Internet: 616381;0:03
+< 4;15.12.17 07:44;;6041;ISDN Gerät;Internet: 616380;0:01
+< 4;15.12.17 07:42;ventengo;004981313569949;ISDN Gerät;Internet: 616380;0:01
+< 4;15.12.17 07:41;;08135939508;ISDN Gerät;Internet: 616380;0:02
+< 4;15.12.17 07:40;;08131568713;ISDN Gerät;Internet: 616381;0:01
+< 4;15.12.17 07:38;;0813157151;ISDN Gerät;Internet: 616381;0:02
+< 4;15.12.17 07:30;;0813180779;ISDN Gerät;Internet: 616381;0:08
+< 4;15.12.17 07:24;;6119199;ISDN Gerät;Internet: 616381;0:02
+< 4;14.12.17 23:05;;6150166;Fax (intern/PC);Internet: 616381;0:01
+< 1;14.12.17 21:44;;089630238297;ISDN Gerät;Internet: 616381;0:02
+< 4;14.12.17 21:34;;6150166;Fax (intern/PC);Internet: 616381;0:01
+< 4;14.12.17 21:29;;6150166;Fax (intern/PC);Internet: 616381;0:01
+< 1;14.12.17 21:15;;089630238296;ISDN Gerät;Internet: 616381;0:02
+< 4;14.12.17 20:39;;0813157151;ISDN Gerät;Internet: 616381;0:01
+< 4;14.12.17 20:37;;081311882449;ISDN Gerät;Internet: 616381;0:03
+< 2;14.12.17 20:19;;089630238298;;Internet: 616381;0:00
+< 2;14.12.17 20:00;;089630238297;;Internet: 616381;0:00
+< 2;14.12.17 19:48;;089630238299;;Internet: 616381;0:00
+< 2;14.12.17 19:40;;089630238297;;Internet: 616381;0:00
+< 2;14.12.17 19:33;;089630238299;;Internet: 616381;0:00
+< 4;14.12.17 19:30;;760;ISDN Gerät;Internet: 616380;0:02
+< 4;14.12.17 19:23;;081311882449;ISDN Gerät;Internet: 616381;0:05
+< 4;14.12.17 19:20;;0896302380;ISDN Gerät;Internet: 616380;0:02
+< 4;14.12.17 19:18;;081311882449;ISDN Gerät;Internet: 616381;0:05
+< 4;14.12.17 19:10;;089440054202;ISDN Gerät;Internet: 616381;0:02
+< 1;14.12.17 18:50;;01787827527;ISDN Gerät;Internet: 616380;0:03
+< 1;14.12.17 18:40;;01634775771;ISDN Gerät;Internet: 616380;0:02
+< 1;14.12.17 18:27;Unbekannt;;ISDN Gerät;Internet: 616381;0:01
+< 1;14.12.17 18:26;;089630238297;ISDN Gerät;Internet: 616381;0:01
+< 1;14.12.17 18:25;;089630238296;ISDN Gerät;Internet: 616381;0:01
+< 4;14.12.17 18:21;ventengo;004981313569949;ISDN Gerät;Internet: 616380;0:02
+< 1;14.12.17 18:19;;015118473719;ISDN Gerät;Internet: 616380;0:01
+< 1;14.12.17 18:11;;089630238297;ISDN Gerät;Internet: 616381;0:01
+< 1;14.12.17 17:55;;089630238299;ISDN Gerät;Internet: 616381;0:05
+< 1;14.12.17 17:42;;01715410899;ISDN Gerät;Internet: 616380;0:03
+< 2;14.12.17 17:41;;01715410899;;Internet: 616380;0:00
+< 1;14.12.17 17:38;;081398025790;ISDN Gerät;Internet: 616380;0:04
+< 1;14.12.17 17:34;;01715410899;ISDN Gerät;Internet: 616380;0:04
+< 4;14.12.17 17:27;;0896302380;ISDN Gerät;Internet: 616380;0:02
+< 1;14.12.17 17:15;;01625758988;ISDN Gerät;Internet: 616380;0:02
+< 1;14.12.17 16:58;;0814220168;ISDN Gerät;Internet: 616380;0:02
+< 1;14.12.17 16:55;;017639150800;ISDN Gerät;Internet: 616380;0:09
+< 4;14.12.17 16:53;ventengo;004981313569949;ISDN Gerät;Internet: 616380;0:02
+< 1;14.12.17 16:35;Unbekannt;;ISDN Gerät;Internet: 616380;0:02
+< 1;14.12.17 16:33;;016094826799;ISDN Gerät;Internet: 616380;0:02
+< 1;14.12.17 16:30;;017662125937;ISDN Gerät;Internet: 616380;0:02
+< 4;14.12.17 16:28;;08142570279;ISDN Gerät;Internet: 616381;0:03
+< 1;14.12.17 16:24;;01743255043;ISDN Gerät;Internet: 616380;0:03
+< 1;14.12.17 16:24;;08131275332;ISDN Gerät;Internet: 616381;0:01
+< 4;14.12.17 16:20;;0895501845;ISDN Gerät;Internet: 616381;0:01
+< 1;14.12.17 16:19;;01606841311;ISDN Gerät;Internet: 616380;0:03
+< 4;14.12.17 16:18;;08131351621;ISDN Gerät;Internet: 616381;0:03
+< 1;14.12.17 16:17;Unbekannt;;ISDN Gerät;Internet: 616380;0:01
+< 1;14.12.17 16:14;;08136806808;ISDN Gerät;Internet: 616380;0:03
+< 1;14.12.17 16:14;;08141512244;ISDN Gerät;Internet: 616380;0:01
+< 4;14.12.17 16:12;ventengo;004981313569949;ISDN Gerät;Internet: 616380;0:02
+< 1;14.12.17 16:11;;081312790487;ISDN Gerät;Internet: 616380;0:02
+< 1;14.12.17 16:11;;079312509;ISDN Gerät;Internet: 616380;0:01
+< 1;14.12.17 16:10;;01624062405;ISDN Gerät;Internet: 616380;0:01
+< 4;14.12.17 16:07;;08141228410;ISDN Gerät;Internet: 616380;0:01
+< 1;14.12.17 16:04;;015752461682;ISDN Gerät;Internet: 616380;0:01
+< 1;14.12.17 16:02;;017666504708;ISDN Gerät;Internet: 616380;0:03
+< 1;14.12.17 16:01;;0813156870;ISDN Gerät;Internet: 616380;0:01
+< 1;14.12.17 15:58;;017666504708;ISDN Gerät;Internet: 616380;0:01
+< 1;14.12.17 15:57;;0893104674;ISDN Gerät;Internet: 616380;0:01
+< 1;14.12.17 15:55;;089630238297;ISDN Gerät;Internet: 616381;0:03
+< 1;14.12.17 15:55;;016094826799;ISDN Gerät;Internet: 616380;0:01
+< 1;14.12.17 15:52;;08131454422;ISDN Gerät;Internet: 616380;0:01
+< 1;14.12.17 15:32;;08963023835;ISDN Gerät;Internet: 616380;0:02
+< 1;14.12.17 15:29;;0026180003365;ISDN Gerät;Internet: 616381;0:01
+< 4;14.12.17 15:20;;0813186934;ISDN Gerät;Internet: 616381;0:01
+< 4;14.12.17 15:19;;081389597;ISDN Gerät;Internet: 616381;0:01
+< 1;14.12.17 15:16;Unbekannt;;ISDN Gerät;Internet: 616380;0:01
+< 4;14.12.17 15:14;;08131568713;ISDN Gerät;Internet: 616381;0:01
+< 1;14.12.17 15:12;;081312790487;ISDN Gerät;Internet: 616380;0:01
+< 4;14.12.17 15:12;;081389597;ISDN Gerät;Internet: 616381;0:02
+< 1;14.12.17 15:10;;08136806808;ISDN Gerät;Internet: 616380;0:01
+< 1;14.12.17 15:09;;079312509;ISDN Gerät;Internet: 616380;0:01
+< 4;14.12.17 15:08;;1887085;USR-1;Internet: 616381;0:01
+< 4;14.12.17 15:06;;1887085;ISDN Gerät;Internet: 616381;0:01
+< 4;14.12.17 15:05;;1887085;ISDN Gerät;Internet: 616381;0:01
+< 4;14.12.17 15:04;;1887085;ISDN Gerät;Internet: 616381;0:01
+< 4;14.12.17 15:03;;1887085;ISDN Gerät;Internet: 616381;0:01
+< 4;14.12.17 14:59;;08008800080;ISDN Gerät;Internet: 616381;0:01
+< 4;14.12.17 14:56;;08008800080;USR-1;Internet: 616381;0:02
+< 4;14.12.17 14:53;;08008800080;ISDN Gerät;Internet: 616381;0:01
+< 4;14.12.17 14:52;;08008800080;ISDN Gerät;Internet: 616381;0:01
+< 4;14.12.17 14:51;;08008800080;ISDN Gerät;Internet: 616381;0:01
+< 1;14.12.17 14:48;;08002834255;ISDN Gerät;Internet: 616380;0:01
+< 1;14.12.17 14:16;;01755771938;ISDN Gerät;Internet: 616380;0:02
+< 1;14.12.17 14:08;;0813156870;ISDN Gerät;Internet: 616380;0:01
+< 1;14.12.17 14:03;;081316119319;ISDN Gerät;Internet: 616381;0:01
+< 1;14.12.17 13:44;;01606841311;ISDN Gerät;Internet: 616380;0:01
+< 1;14.12.17 13:17;;08131376790;ISDN Gerät;Internet: 616381;0:03
+< 1;14.12.17 13:14;Rothacker;0893090550;ISDN Gerät;Internet: 616381;0:02
+< 1;14.12.17 13:00;;06214907156400;ISDN Gerät;Internet: 616380;0:01
+< 4;14.12.17 12:56;;081368208;ISDN Gerät;Internet: 616381;0:02
+< 1;14.12.17 12:50;;015166316297;ISDN Gerät;Internet: 616380;0:02
+< 4;14.12.17 12:49;;081367073;ISDN Gerät;Internet: 616380;0:01
+< 1;14.12.17 12:41;;01753560985;ISDN Gerät;Internet: 616380;0:01
+< 1;14.12.17 12:40;;0813180654;ISDN Gerät;Internet: 616381;0:01
+< 4;14.12.17 12:40;;0896302380;ISDN Gerät;Internet: 616380;0:02
+< 1;14.12.17 12:38;;01629633062;ISDN Gerät;Internet: 616380;0:01
+< 4;14.12.17 12:38;ventengo;004981313569949;ISDN Gerät;Internet: 616380;0:01
+< 1;14.12.17 12:31;;081313180451;ISDN Gerät;Internet: 616380;0:06
+< 4;14.12.17 12:29;;667390;ISDN Gerät;Internet: 616380;0:02
+< 1;14.12.17 12:19;;08131764065;ISDN Gerät;Internet: 616380;0:01
+< 1;14.12.17 12:18;;08131667390;ISDN Gerät;Internet: 616380;0:02
+< 4;14.12.17 12:17;;3180451;ISDN Gerät;Internet: 616380;0:01
+< 1;14.12.17 12:14;;0813185891;ISDN Gerät;Internet: 616380;0:03
+< 1;14.12.17 12:12;;0891507744;ISDN Gerät;Internet: 616380;0:04
+< 1;14.12.17 12:11;;01716505422;ISDN Gerät;Internet: 616380;0:01
+< 4;14.12.17 12:04;;112;ISDN Gerät;Internet: 616380;0:02
+< 1;14.12.17 12:02;;0813152870;ISDN Gerät;Internet: 616380;0:02
+< 1;14.12.17 11:58;Unbekannt;;ISDN Gerät;Internet: 616380;0:02
+< 4;14.12.17 11:55;;4547151;ISDN Gerät;Internet: 616380;0:02
+< 1;14.12.17 11:52;Unbekannt;;ISDN Gerät;Internet: 616381;0:01
+< 4;14.12.17 11:50;;4547151;ISDN Gerät;Internet: 616380;0:01
+< 1;14.12.17 11:47;;017680422925;ISDN Gerät;Internet: 616380;0:02
+< 1;14.12.17 11:47;;081392041470;ISDN Gerät;Internet: 616380;0:02
+< 1;14.12.17 11:44;;08821938022;ISDN Gerät;Internet: 616380;0:02
+< 1;14.12.17 11:44;;01728400479;ISDN Gerät;Internet: 616380;0:02
+< 1;14.12.17 11:43;;08821938022;ISDN Gerät;Internet: 616380;0:01
+< 4;14.12.17 11:39;;760;ISDN Gerät;Internet: 616380;0:02
+< 4;14.12.17 11:35;;081386677715;ISDN Gerät;Internet: 616380;0:03
+< 4;14.12.17 11:20;ventengo;004981313569949;ISDN Gerät;Internet: 616380;0:01
+< 1;14.12.17 11:18;;08136937740;ISDN Gerät;Internet: 616380;0:03
+< 4;14.12.17 11:18;ventengo;004981313569949;ISDN Gerät;Internet: 616380;0:01
+< 4;14.12.17 11:18;ventengo;004981313569949;ISDN Gerät;Internet: 616380;0:01
+< 4;14.12.17 11:17;;089242027363;ISDN Gerät;Internet: 616380;0:01
+< 1;14.12.17 11:17;;08131760;ISDN Gerät;Internet: 616381;0:02
+< 1;14.12.17 11:15;;081313339699;ISDN Gerät;Internet: 616381;0:01
+< 4;14.12.17 11:15;;55427;ISDN Gerät;Internet: 616380;0:01
+< 1;14.12.17 11:14;;08131760;ISDN Gerät;Internet: 616381;0:01
+< 4;14.12.17 11:12;;764701;ISDN Gerät;Internet: 616380;0:02
+< 1;14.12.17 10:53;;08988922304;ISDN Gerät;Internet: 616381;0:01
+< 1;14.12.17 10:50;;01712897952;ISDN Gerät;Internet: 616380;0:02
+< 4;14.12.17 10:50;;08988922314;ISDN Gerät;Internet: 616380;0:03
+< 1;14.12.17 10:45;;0893155234;ISDN Gerät;Internet: 616380;0:02
+< 4;14.12.17 10:40;;56860;ISDN Gerät;Internet: 616380;0:02
+< 1;14.12.17 10:39;;017639150800;ISDN Gerät;Internet: 616380;0:01
+< 1;14.12.17 10:39;;017639150800;ISDN Gerät;Internet: 616380;0:01
+< 1;14.12.17 10:38;;016099161137;ISDN Gerät;Internet: 616380;0:02
+< 1;14.12.17 10:36;;081312751313;ISDN Gerät;Internet: 616380;0:02
+< 1;14.12.17 10:35;;081313189131;ISDN Gerät;Internet: 616380;0:02
+< 4;14.12.17 10:34;;71505;ISDN Gerät;Internet: 616380;0:01
+< 4;14.12.17 10:27;;08139320;ISDN Gerät;Internet: 616380;0:02
+< 1;14.12.17 10:24;;015146332610;ISDN Gerät;Internet: 616380;0:03
+< 1;14.12.17 10:15;;0813178076;ISDN Gerät;Internet: 616381;0:01
+< 1;14.12.17 10:07;;08131275498;ISDN Gerät;Internet: 616380;0:01
+< 1;14.12.17 10:02;;08131275498;ISDN Gerät;Internet: 616380;0:02
+< 1;14.12.17 10:01;;0813185943;ISDN Gerät;Internet: 616380;0:01
+< 1;14.12.17 09:56;;01713432322;ISDN Gerät;Internet: 616380;0:02
+< 4;14.12.17 09:55;;91518;ISDN Gerät;Internet: 616380;0:01
+< 4;14.12.17 09:52;;25886;ISDN Gerät;Internet: 616380;0:04
+< 4;14.12.17 09:50;;85690;ISDN Gerät;Internet: 616380;0:02
+< 4;14.12.17 09:50;;0813187357;ISDN Gerät;Internet: 616380;0:02
+< 1;14.12.17 09:47;;0813186934;ISDN Gerät;Internet: 616381;0:02
+< 4;14.12.17 09:45;;081316041;ISDN Gerät;Internet: 616380;0:01
+< 4;14.12.17 09:44;;089857916453;ISDN Gerät;Internet: 616380;0:01
+< 4;14.12.17 09:39;ventengo;004981313569949;ISDN Gerät;Internet: 616380;0:02
+< 4;14.12.17 09:39;;71505;ISDN Gerät;Internet: 616380;0:01
+< 1;14.12.17 09:31;;015253923958;ISDN Gerät;Internet: 616380;0:01
+< 4;14.12.17 09:31;;56870;ISDN Gerät;Internet: 616380;0:03
+< 1;14.12.17 09:29;;08984008948;ISDN Gerät;Internet: 616380;0:03
+< 1;14.12.17 09:28;;01795069980;ISDN Gerät;Internet: 616380;0:03
+< 1;14.12.17 09:28;;089593831;ISDN Gerät;Internet: 616380;0:01
+< 4;14.12.17 09:27;ventengo;004981313569949;ISDN Gerät;Internet: 616380;0:01
+< 1;14.12.17 09:25;;0813113023;ISDN Gerät;Internet: 616380;0:02
+< 4;14.12.17 09:24;;92284;ISDN Gerät;Internet: 616380;0:02
+< 1;14.12.17 09:24;;0814144589;ISDN Gerät;Internet: 616380;0:01
+< 1;14.12.17 09:22;;089440073941;ISDN Gerät;Internet: 616380;0:01
+< 1;14.12.17 09:18;Unbekannt;;ISDN Gerät;Internet: 616380;0:01
+< 1;14.12.17 09:17;;08137629025;ISDN Gerät;Internet: 616380;0:02
+< 4;14.12.17 09:15;;71505;ISDN Gerät;Internet: 616380;0:01
+< 4;14.12.17 09:14;;71077;ISDN Gerät;Internet: 616380;0:02
+< 4;14.12.17 09:11;;87343;ISDN Gerät;Internet: 616380;0:03
+< 1;14.12.17 09:07;;081316149311;ISDN Gerät;Internet: 616381;0:03
+< 1;14.12.17 09:07;;015141220426;ISDN Gerät;Internet: 616380;0:01
+< 4;14.12.17 09:05;;85028;ISDN Gerät;Internet: 616380;0:05
+< 1;14.12.17 09:04;Unbekannt;;ISDN Gerät;Internet: 616381;0:03
+< 4;14.12.17 09:02;;352525;ISDN Gerät;Internet: 616380;0:02
+< 1;14.12.17 09:02;Unbekannt;;ISDN Gerät;Internet: 616381;0:01
+< 1;14.12.17 09:01;Unbekannt;;ISDN Gerät;Internet: 616381;0:01
+< 1;14.12.17 08:59;Unbekannt;;ISDN Gerät;Internet: 616381;0:01
+< 4;14.12.17 08:58;;56870;ISDN Gerät;Internet: 616380;0:02
+< 4;14.12.17 08:55;;760;ISDN Gerät;Internet: 616380;0:02
+< 4;14.12.17 08:54;;081388081;ISDN Gerät;Internet: 616380;0:02
+< 1;14.12.17 08:51;;01735784213;ISDN Gerät;Internet: 616380;0:03
+< 1;14.12.17 08:45;;0813156860;ISDN Gerät;Internet: 616380;0:01
+< 4;14.12.17 08:44;;0896302380;ISDN Gerät;Internet: 616380;0:02
+< 4;14.12.17 08:43;;08001656616;ISDN Gerät;Internet: 616380;0:02
+< 1;14.12.17 08:39;;0813193943;ISDN Gerät;Internet: 616380;0:01
+< 1;14.12.17 08:29;Unbekannt;;ISDN Gerät;Internet: 616381;0:01
+< 1;14.12.17 08:27;;081311882449;ISDN Gerät;Internet: 616381;0:01
+< 4;14.12.17 08:20;;0813393954822;ISDN Gerät;Internet: 616381;0:01
+< 4;14.12.17 08:20;;081469999029;ISDN Gerät;Internet: 616381;0:01
+< 4;14.12.17 08:19;;352525;ISDN Gerät;Internet: 616380;0:02
+< 4;14.12.17 08:18;;0813393954822;ISDN Gerät;Internet: 616381;0:01
+< 4;14.12.17 08:18;;081469999029;ISDN Gerät;Internet: 616381;0:01
+< 1;14.12.17 08:18;;015221484050;ISDN Gerät;Internet: 616380;0:01
+< 4;14.12.17 08:18;;0813393954822;ISDN Gerät;Internet: 616381;0:01
+< 4;14.12.17 08:17;;0813179733;ISDN Gerät;Internet: 616381;0:01
+< 4;14.12.17 08:16;;0813179733;ISDN Gerät;Internet: 616381;0:01
+< 1;14.12.17 08:08;;01795069980;ISDN Gerät;Internet: 616380;0:02
+< 1;14.12.17 08:04;;081413151781;ISDN Gerät;Internet: 616380;0:01
+< 1;14.12.17 08:03;;0813176363;ISDN Gerät;Internet: 616380;0:01
+< 2;14.12.17 07:54;;01623890274;;Internet: 616380;0:00
+< 1;14.12.17 07:54;;01623890274;ISDN Gerät;Internet: 616380;0:01
+< 1;14.12.17 00:58;Unbekannt;;ISDN Gerät;Internet: 616380;0:02
+< 4;13.12.17 20:54;;08954506447;ISDN Gerät;Internet: 616381;0:01
+< 4;13.12.17 20:51;;08441791390;ISDN Gerät;Internet: 616381;0:02
+< 4;13.12.17 20:50;;084417873800;ISDN Gerät;Internet: 616381;0:01
+< 4;13.12.17 20:23;;0813126936;ISDN Gerät;Internet: 616381;0:04
+< 4;13.12.17 20:18;;0813126936;ISDN Gerät;Internet: 616381;0:05
+< 4;13.12.17 20:06;;088219380972;ISDN Gerät;Internet: 616381;0:03
+< 1;13.12.17 19:38;Cornelia Reindl;017682028750;ISDN Gerät;Internet: 616380;0:04
+< 4;13.12.17 19:30;;08131514774;ISDN Gerät;Internet: 616381;0:05
+< 4;13.12.17 19:14;;081389597;ISDN Gerät;Internet: 616381;0:01
+< 4;13.12.17 19:12;;081389597;ISDN Gerät;Internet: 616381;0:01
+< 4;13.12.17 18:56;;081389597;ISDN Gerät;Internet: 616381;0:01
+< 4;13.12.17 18:48;;0893106594;ISDN Gerät;Internet: 616381;0:02
+< 4;13.12.17 18:44;;0893106594;USR-1;Internet: 616381;0:01
+< 4;13.12.17 18:42;;0893106594;ISDN Gerät;Internet: 616381;0:01
+< 4;13.12.17 18:40;;0893106594;ISDN Gerät;Internet: 616381;0:01
+< 1;13.12.17 18:40;;016099161137;ISDN Gerät;Internet: 616380;0:01
+< 4;13.12.17 18:39;;0893106594;ISDN Gerät;Internet: 616381;0:01
+< 4;13.12.17 18:38;;0893106594;ISDN Gerät;Internet: 616381;0:01
+< 1;13.12.17 18:34;;089630238297;ISDN Gerät;Internet: 616381;0:01
+< 1;13.12.17 18:30;;089630238296;ISDN Gerät;Internet: 616381;0:01
+< 4;13.12.17 18:13;;82582;ISDN Gerät;Internet: 616380;0:05
+< 4;13.12.17 18:08;ventengo;004981313569949;ISDN Gerät;Internet: 616380;0:01
+< 1;13.12.17 18:01;;089630238297;ISDN Gerät;Internet: 616381;0:07
+< 1;13.12.17 17:55;;0813156870;ISDN Gerät;Internet: 616381;0:01
+< 4;13.12.17 17:49;;1882459;ISDN Gerät;Internet: 616381;0:02
+< 4;13.12.17 17:46;;081311882459;ISDN Gerät;Internet: 616381;0:02
+< 4;13.12.17 17:45;;08131514774;ISDN Gerät;Internet: 616381;0:02
+< 4;13.12.17 17:44;;081386257;ISDN Gerät;Internet: 616381;0:01
+< 4;13.12.17 17:42;;08131352419;ISDN Gerät;Internet: 616381;0:02
+< 4;13.12.17 17:26;;08142570672;ISDN Gerät;Internet: 616381;0:02
+< 4;13.12.17 17:21;;0814254335;ISDN Gerät;Internet: 616381;0:03
+< 1;13.12.17 17:14;;0892429120;ISDN Gerät;Internet: 616380;0:02
+< 4;13.12.17 17:13;;539649;ISDN Gerät;Internet: 616381;0:01
+< 1;13.12.17 17:05;;089630238299;ISDN Gerät;Internet: 616381;0:01
+< 1;13.12.17 16:54;;0813992840;ISDN Gerät;Internet: 616380;0:01
+< 1;13.12.17 16:43;;08963023855;ISDN Gerät;Internet: 616380;0:01
+< 1;13.12.17 16:30;;08963023853;ISDN Gerät;Internet: 616380;0:02
+< 1;13.12.17 15:58;;08963023880;ISDN Gerät;Internet: 616380;0:01
+< 2;13.12.17 15:56;;081426505511;;Internet: 616380;0:00
+< 1;13.12.17 15:22;;015146332610;ISDN Gerät;Internet: 616380;0:02
+< 1;13.12.17 15:09;;01629633062;ISDN Gerät;Internet: 616380;0:01
+< 4;13.12.17 14:27;ventengo;004981313569949;ISDN Gerät;Internet: 616380;0:01
+< 4;13.12.17 14:19;ventengo;004981313569949;ISDN Gerät;Internet: 616380;0:03
+< 4;13.12.17 14:14;ventengo;004981313569949;ISDN Gerät;Internet: 616380;0:04
+< 4;13.12.17 14:13;ventengo;004981313569949;ISDN Gerät;Internet: 616380;0:01
+< 4;13.12.17 14:13;ventengo;004981313569949;ISDN Gerät;Internet: 616380;0:01
+< 1;13.12.17 14:03;;08131275656;ISDN Gerät;Internet: 616381;0:01
+< 1;13.12.17 13:36;;081332211;ISDN Gerät;Internet: 616381;0:01
+< 4;13.12.17 13:34;;081368208;USR-1;Internet: 616381;0:01
+< 4;13.12.17 13:32;;081368208;ISDN Gerät;Internet: 616381;0:01
+< 4;13.12.17 13:30;;081368208;ISDN Gerät;Internet: 616381;0:01
+< 4;13.12.17 13:29;;081368208;ISDN Gerät;Internet: 616381;0:01
+< 4;13.12.17 13:28;;081368208;ISDN Gerät;Internet: 616381;0:01
+< 4;13.12.17 13:13;ventengo;004981313569949;ISDN Gerät;Internet: 616380;0:02
+< 1;13.12.17 13:02;;08952388107;ISDN Gerät;Internet: 616381;0:01
+** (roger_cli:12773): WARNING **: Could not login to router ftp
+** Message: Transfer starting:
+** Message: 1/1
+
+** (roger_cli:12773): WARNING **: Could not login to router ftp
+** Message: Connected
+** Message: Transfer at 48%
+** Message: Transfer at 96%
+** Message: Transfer at 100%
+** Message: Transferring page
+** Message: 1
+** Message: Fax transfer successful
+** Message: Disconnected
+
+< 1;13.12.17 12:50;;0034922160902;ISDN Gerät;Internet: 616380;0:06
+< 1;13.12.17 12:48;;01724113390;ISDN Gerät;Internet: 616380;0:04
+< 1;13.12.17 12:35;;0034922160902;ISDN Gerät;Internet: 616380;0:02
+< 4;13.12.17 12:33;;998390;ISDN Gerät;Internet: 616380;0:01
+< 1;13.12.17 12:25;;081398003814;ISDN Gerät;Internet: 616380;0:04
+< 1;13.12.17 12:25;;081398003814;ISDN Gerät;Internet: 616381;0:01
+< 1;13.12.17 12:15;;081392232;ISDN Gerät;Internet: 616380;0:02
+< 1;13.12.17 12:06;;0893153398;ISDN Gerät;Internet: 616380;0:02
+< 1;13.12.17 12:02;Unbekannt;;ISDN Gerät;Internet: 616380;0:01
+< 1;13.12.17 11:59;;08139994869;ISDN Gerät;Internet: 616380;0:02
+< 1;13.12.17 11:59;;081316119189;ISDN Gerät;Internet: 616381;0:02
+< 1;13.12.17 11:37;;0813180850;ISDN Gerät;Internet: 616381;0:01
+< 1;13.12.17 11:35;Rothacker;0893090550;ISDN Gerät;Internet: 616381;0:02
+< 1;13.12.17 11:27;;0813197068;ISDN Gerät;Internet: 616380;0:04
+< 4;13.12.17 11:13;;082518762584;ISDN Gerät;Internet: 616380;0:05
+< 1;13.12.17 11:11;;07319840170;ISDN Gerät;Internet: 616380;0:02
+< 1;13.12.17 11:09;Unbekannt;;ISDN Gerät;Internet: 616380;0:01
+< 1;13.12.17 11:06;;01709613052;ISDN Gerät;Internet: 616380;0:01
+< 1;13.12.17 11:04;;017680528861;ISDN Gerät;Internet: 616380;0:01
+< 1;13.12.17 11:04;;08131275656;ISDN Gerät;Internet: 616381;0:01
+< 1;13.12.17 11:02;;0813176285;ISDN Gerät;Internet: 616381;0:03
+< 1;13.12.17 11:01;;08131539090;ISDN Gerät;Internet: 616380;0:03
+< 1;13.12.17 11:01;;081314091;ISDN Gerät;Internet: 616380;0:01
+< 1;13.12.17 11:00;;015201766428;ISDN Gerät;Internet: 616380;0:02
+< 1;13.12.17 10:57;;0813992840;ISDN Gerät;Internet: 616380;0:03
+< 1;13.12.17 10:54;;01738616235;ISDN Gerät;Internet: 616380;0:03
+< 1;13.12.17 10:51;;082518762584;ISDN Gerät;Internet: 616380;0:01
+< 1;13.12.17 10:50;Unbekannt;;ISDN Gerät;Internet: 616380;0:01
+< 1;13.12.17 10:47;;081336210;ISDN Gerät;Internet: 616380;0:02
+< 4;13.12.17 10:43;;760;ISDN Gerät;Internet: 616380;0:03
+< 4;13.12.17 10:42;ventengo;004981313569949;ISDN Gerät;Internet: 616380;0:04
+< 4;13.12.17 10:42;ventengo;004981313569949;ISDN Gerät;Internet: 616380;0:01
+< 4;13.12.17 10:38;;6119200;ISDN Gerät;Internet: 616380;0:02
+< 1;13.12.17 10:37;Unbekannt;;ISDN Gerät;Internet: 616380;0:03
+< 1;13.12.17 10:33;;08131275656;ISDN Gerät;Internet: 616381;0:02
+< 1;13.12.17 10:32;;08131275656;ISDN Gerät;Internet: 616381;0:02
+  
+tiff_file: /DATA/Patientendokumente/hallo.pdf.tif, src_no: 616381, trg_no: 6150166, ident: +49, header: DiabDachau, remote_ident: G.Schade, phase: 2, error_code: -1, sending: 1
+fritzbox_logout
+tiff_file: /DATA/Patientendokumente/hallo.pdf.tif, src_no: 616381, trg_no: 6150166, ident: +49, header: DiabDachau, remote_ident: G.Schade, phase: 2, error_code: -1, sending: 1
+tiff_file: /DATA/Patientendokumente/hallo.pdf.tif, src_no: 616381, trg_no: 6150166, ident: +49, header: DiabDachau, remote_ident: G.Schade, phase: 2, error_code: -1, sending: 1
+tiff_file: /DATA/Patientendokumente/hallo.pdf.tif, src_no: 616381, trg_no: 6150166, ident: +49, header: DiabDachau, remote_ident: G.Schade, phase: 2, error_code: -1, sending: 1
+tiff_file: /DATA/Patientendokumente/hallo.pdf.tif, src_no: 616381, trg_no: 6150166, ident: +49, header: DiabDachau, remote_ident: G.Schade, phase: 3, error_code: -1, sending: 1
+tiff_file: /DATA/Patientendokumente/hallo.pdf.tif, src_no: 616381, trg_no: 6150166, ident: +49, header: DiabDachau, remote_ident: G.Schade, phase: 4, error_code: 0, sending: 1
+Hier roger_cli 13
+Hier roger_cli 14
+Hier roger_cli 15
+Hier roger_cli 16
